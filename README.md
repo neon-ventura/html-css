@@ -5,4 +5,4 @@
 
  <a href= "https://neon-ventura.github.io/projeto-android/">Site do Android</a>
 
- <a href= "https://neon-ventura.github.io/projeto-cordel/">Site do Android</a>
+ <a href= "https://neon-ventura.github.io/projeto-cordel/">Site do Cordel</a>
