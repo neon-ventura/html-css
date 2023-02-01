@@ -16,17 +16,17 @@
         h1{
             color: white;
             text-shadow: 1px 1px 1px black;
-            width: 41vh;
+            max-width: 39vh;
             padding: 5px;
             margin: auto;
             margin-bottom: 30px;
-            background-color: gray;
-            border: 3px dashed black;
+            background-color: rgb(31, 29, 29);
+            border: 3px solid gray;
             border-radius: 5px;
         }
 
         table{
-            width: 53vh;
+            min-width: 50vh;
             border-collapse: collapse;
             box-shadow: 1px 1px 4px ;
             margin: auto;
@@ -35,9 +35,6 @@
         td, th{
             border: 1px solid black;
             padding: 10px;
-        }
-        td{
-            background-color: white;
         }
 
         caption{
@@ -52,6 +49,15 @@
         }
 
         thead, tfoot{
+            background-color: rgb(31, 29, 29);
+            color: white;
+        }
+
+        tbody > tr:nth-child(2n){
+            background-color: white;
+        }
+
+        tbody > tr:nth-child(2n -1) {
             background-color: lightgray;
         }
 
