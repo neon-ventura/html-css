@@ -19,8 +19,9 @@ Extra large screens, TV: 1201px and more*/
     header > menu > ul > li{
         display: inline-block;
     }
+
+    main{
+        width: 768px;
+    }
 }
 
-main{
-    width: 768px;
-}

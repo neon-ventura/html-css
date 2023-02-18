@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+
 *{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
@@ -7,16 +8,27 @@
 }
 
 body , html{
-    background-color: lightgray;
+    height: 100vh;
+    background-image: url(../imagens/pexels-miguel-arcanjo-saddi-15371312.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
 }
 
 header{
-    background-color: rgb(151, 151, 151);
+    background-color: #704C36;
+    box-shadow: 1px 1px 2px black;
+    width: 90vw;
+    display: block;
+    margin: auto;
+    border-radius: 0px 0px 30px 30px;
 }
 
 header > h1{
-    padding: 10px;
+    padding: 30px;
     text-align: center;
+    color: #241F1C;
+    font-size: 3em;
 }
 
 #burguer{
@@ -25,6 +37,7 @@ header > h1{
     background-color: rgb(48, 48, 48);
     color: white;
     padding: 10px;
+    border-radius: 0px 0px 30px 30px;
 }
 
 #burguer:hover{
@@ -43,16 +56,25 @@ header > menu{
 
 menu > ul{
     list-style-type: none;
+    width: 400px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: auto;
+}
+
+menu > ul > li{
+    padding: 5px;
 }
 
 menu > ul > li > a{
     display: block;
     padding: 10px;
     text-decoration: none;
-    background-color: rgb(82, 82, 82);
-    color: white;
+    background-color: #706158;
+    color: #241F1C;
     text-align: center;
-    border: 2px solid gray;
+    border: 2px solid #241F1C;
+    border-radius: 20px;
 }
 
 menu > ul > li > a:hover{
@@ -61,19 +83,33 @@ menu > ul > li > a:hover{
 
 main{
     width: 90vw;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.849);
     margin: auto;
-    margin-top: 10px;
+    margin-top: 50px;
     padding: 10px;
     border-radius: 10px;
 }
 
 article > h2{
     padding-bottom: 10px;
+    color: #241F1C;
 }
 
 article > p{
     text-align: justify;
-    margin-bottom: 20px;
-    text-indent: 20px;
+    line-height: 25px;
+    
 }
+
+.main2{
+    margin-top: 50px;
+}
+
+
+footer{
+    background-color: #704C36;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+
