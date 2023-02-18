@@ -1,6 +1,9 @@
 @charset "UTF-8";
 
 
+  @import url('https://fonts.googleapis.com/css2?family=Mynerve&display=swap');
+
+
 *{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
@@ -9,6 +12,7 @@
 
 body , html{
     height: 100vh;
+    width: auto;
     background-image: url(../imagens/pexels-miguel-arcanjo-saddi-15371312.jpg);
     background-size: cover;
     background-position: center center;
@@ -25,6 +29,7 @@ header{
 }
 
 header > h1{
+    font-family: 'Mynerve', cursive;
     padding: 30px;
     text-align: center;
     color: #241F1C;
@@ -88,6 +93,10 @@ main{
     margin-top: 50px;
     padding: 10px;
     border-radius: 10px;
+}
+
+main > article > h2{
+    font-family: 'Mynerve', cursive;
 }
 
 article > h2{

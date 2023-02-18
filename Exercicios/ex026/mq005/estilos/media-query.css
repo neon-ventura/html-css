@@ -8,6 +8,10 @@ Desktop, large screens: até 1200px
 Extra large screens, TV: 1201px and more*/
 
 @media screen and (min-width: 768px){
+    menu > ul{
+        width: 491px;
+    }
+
     #burguer{
         display: none;
     }
