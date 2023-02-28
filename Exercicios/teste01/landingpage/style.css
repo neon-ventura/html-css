@@ -7,54 +7,94 @@
 }
 
 html , body{
-    height: 100vh;
+    
 }
 
 body{
-    background-image: url(pexels-steve-johnson-1509534.jpg);
+    background-color: #3363E7;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
-.menu{
+menu{
+    box-shadow: 1px 2px 4px black;
+    padding: 20px;
     color: white;
-    padding-top: 20px;
-    text-align: center;
-    
-    
+    background-color: #284DB5;
+ }
+ 
+ menu > p{
+     display:block;
+     text-align: center;
+     padding: 5px;
+ }
+
+.conta{
+    margin-bottom: 30px;
+    text-align: end;
 }
 
-.menu > p{
-    padding: 10px;
+.wistia{
     display: inline-block;
-    font-weight: bold;
-}
-
-.menu2{
+    text-align: left;
+    margin-right: 130px;
     color: white;
-    display: block;
-    height: 15vh;
-    text-align: center;
-    margin-top: 100px;
-    
 }
 
-.menu2 > p {
-    display: inline;
-    background-color:rgb(66, 66, 221);
-    padding: 15px;
-    border-radius: 20px;
+.login{
+    display: inline-block;
+    background-color: white;
+    color: gray;
+    font-weight: bolder;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.login > p{
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+}
+
+.getstarded{
+   
+    background-color: #264ACA;
+    display: inline-block;
+    font-weight: bolder;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.getstarded > p {
+    color: white;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
 }
 
 
 main > article{
+    padding-top: 20px;
     color: white;
-    text-align: center;
+    margin: auto;
+    width: 300px;
+}
 
+main > article > h1 , p{
+    text-align: center;
 }
 
 main > article > h1{
+    font-size: 2.5em;
+    font-weight:lighter;
+    text-align: justify;
+    padding-bottom:20px;
+}
+
+main > article > p{
+    font-size: 1.2em;
+    text-align:justify ;
 }
 
 main > div > video{
@@ -62,5 +102,35 @@ main > div > video{
     margin: auto;
     height: 300px;
     width: 400px;
+}
+
+.acessar{
+    display:block;
+    text-align: center;
+    padding-bottom: 46px;
+}
+
+.acessar > p{
+    display: inline-block;
+    padding: 20px;
+    width: 150px;
+    margin-top: 30px;
+}
+
+.tryforfree{
+    color: white;
+    font-weight: bolder;
+    background-color: #E75C9E;
+}
+
+.exploreourplans{
+    color: #E75C9E;
+    background-color: white;
+    font-weight: bolder;
+}
+
+footer{
+    background-color: #284DB5;
+    
 }
 
