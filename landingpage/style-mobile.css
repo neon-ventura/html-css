@@ -37,7 +37,6 @@ menu{
 
 .wistia{
     display: inline-block;
-    text-align: left;
     margin-right: 130px;
     color: white;
 }
@@ -121,12 +120,14 @@ main > div > video{
     color: white;
     font-weight: bolder;
     background-color: #E75C9E;
+    border-radius: 10px;
 }
 
 .exploreourplans{
     color: #E75C9E;
     background-color: white;
     font-weight: bolder;
+    border-radius: 10px;
 }
 
 footer{
